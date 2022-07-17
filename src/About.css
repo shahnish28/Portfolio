@@ -1,0 +1,6 @@
+#about img{
+    height: 470px;
+    width: 100vw;
+    -webkit-filter: blur(5px);
+}
+

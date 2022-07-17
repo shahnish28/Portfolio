@@ -1,0 +1,104 @@
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.home h1{
+    color: beige ;
+    padding-bottom: 210px;
+    padding-top: 210px;
+}
+
+.intro{
+    background-color: black;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 768px;
+}
+
+
+.bg{
+    background-color: black;
+    display: flex;
+    justify-content:right;
+    height: 768px;
+    width: 50vw;
+}
+    
+
+
+.bg img{
+    margin-top: -21px;
+    height: 700px;
+    margin-right: -241px;
+}
+    
+
+.bg p{
+    color: beige;
+    padding-right: 18vw;
+    padding-top: 27vh;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.home .intro {
+    color: beige;
+}
+.home .intro .subh{
+    margin-top: -204px;
+    font-size: 12px;
+}
+
+.home .intro .heading{
+    transform: rotate(-12deg);
+    
+}
+
+
+
+.sign {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+  
+  /* Animation the stroke-dashoffset to a zero length */
+  @keyframes strokeOffset {
+    
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  /* Apply the animation to each mask */
+  .sign {
+    animation: strokeOffset 20s linear forwards;
+    animation-delay: 2ms;
+  }
+    
+  .sep{
+    height: 40px;
+    background-color: beige;
+    display: flex;              
+    align-items: center;
+    justify-content: center; 
+    /* display flex to be removed */
+}
+
+  
+
+
+
