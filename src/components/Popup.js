@@ -8,7 +8,7 @@ function Popup(props) {
         <div className="Popup-inner">
             <button className="closebtn" onClick={()=> props.setTrigger(false)}>
                 
-                <i class="fa-solid fa-xmark"></i>
+                <i className="fa-solid fa-xmark"></i>
                 
             </button>
             {props.children}

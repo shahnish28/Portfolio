@@ -24,17 +24,11 @@ export class Home extends Component {
                   </svg>
                </div>
 
-
-                
-                  
-               
-
-             
                <div className="subh">
                   <h1>the odysse of a front-end web developer </h1> 
                </div>
 
-              
+                
             </div>
             <div className="bg">
               <img src={homebg} alt="homebg" />
@@ -42,12 +36,22 @@ export class Home extends Component {
           </div>
         </div>
 
+        
         <div className="sep">
-          <h6>this is a seperator</h6>
+          <i className = "fa-solid fa-display"></i>
         </div>
+        
+          
+  
         </>
     )
   }
 }
 
 export default Home
+                  
+               
+
+             
+
+              

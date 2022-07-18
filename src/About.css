@@ -1,6 +1,25 @@
+#about{
+
+        position: relative;
+        /* text-align: center; */
+        color: red;
+
+}
+
 #about img{
     height: 470px;
     width: 100vw;
     -webkit-filter: blur(5px);
+}
+
+#about .itext{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#about .itext h2{
+    
 }
 

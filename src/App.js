@@ -23,18 +23,18 @@ function App() {
     <>
     <Navbar/>
     <Popup/>
-
-      
-    
     <Home/>
     <About />
     <Contact/>
-    
-    
-    
     </>
   )
-    
   }
-
+  
 export default App;
+    
+    
+    
+    
+    
+  
+
